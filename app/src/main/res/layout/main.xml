@@ -10,6 +10,12 @@
         android:layout_height="wrap_content"
         android:text="My old tweets" />
 
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
     <ListView
         android:id="@+id/oldTweetsList"
         android:layout_width="fill_parent"
@@ -19,12 +25,6 @@
 
     </ListView>
 
-    <TextView
-        android:id="@+id/hello"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
-    
     <EditText
         android:id="@+id/body"
         android:layout_width="fill_parent"
