@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by watts1 on 9/15/16.
  */
-public abstract class Tweet implements Tweetable {
+public abstract class Tweet implements Comparable<Tweet> {
     private String message;
     private Date date;
 
@@ -45,5 +45,10 @@ public abstract class Tweet implements Tweetable {
 
     public Date getDate() {
         return date;
+    }
+
+//    @Override
+    public int compareTo(Tweet t) {
+        return this.getDate().compareTo(t.date);
     }
 }

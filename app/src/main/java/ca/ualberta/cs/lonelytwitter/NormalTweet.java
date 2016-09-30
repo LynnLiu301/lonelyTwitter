@@ -1,5 +1,7 @@
 package ca.ualberta.cs.lonelytwitter;
 
+import java.util.Date;
+
 /**
  * Created by watts1 on 9/15/16.
  */
@@ -9,6 +11,10 @@ public class NormalTweet extends Tweet {
         super(message);
     }
 
+
+    public NormalTweet(String message, Date date) {
+        super(message, date);
+    }
     @Override
     public Boolean isImportant() {
         return Boolean.FALSE;
