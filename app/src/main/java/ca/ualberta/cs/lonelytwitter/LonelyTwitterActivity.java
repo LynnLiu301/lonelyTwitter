@@ -24,7 +24,41 @@ import android.widget.ListView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+/**
+ * Created by xizi on 9/29/16.
+ * @author xizi
+ * @since 1.4
+ * @see  NormalTweet
+ * @see java.io.BufferedInputStream
+ * <p> YOu can access this file from Android Device Monitor</p>
+ * <pre></pre>
+ * <code>
+ *     pseudo - code that is used in this class as follows:
+ *     serp1 <br>
+ *     step2 <br>
+ *     </code>
+ *     <ol>
+ *         <li>there is a list hahaha</li>
+ *         <li>there is a list hahaha</li>
+ *         <li>there is a list hahaha</li>
+ *         <li>there is a list hahaha</li>
+ *      </ol>
+ *      <ol>
+ *
+ *
+ *      </ol>
+ */
+
+
 public class LonelyTwitterActivity extends Activity {
+
+	/**
+	 * this is the name of the file that is saved in your virtual devide.
+	 * You can access it through Android Device Monitor by selecting your app,
+	 * then data -> data > file.sav
+	 * @see NormalTweet
+	 * @author xizi
+	 */
 
 	private static final String FILENAME = "file.sav";
 	private EditText bodyText;
@@ -83,6 +117,11 @@ public class LonelyTwitterActivity extends Activity {
 		oldTweetsList.setAdapter(adapter);
 	}
 
+	/**
+	 * @throws RuntimeException
+	 * @exception
+	 */
+
 	private void loadFromFile() {
 		ArrayList<String> tweets = new ArrayList<String>();
 		try {
@@ -102,6 +141,10 @@ public class LonelyTwitterActivity extends Activity {
 		}
 
 	}
+
+	/**
+	 * this method loads the json file, generateds the tweets from its contents.
+	 */
 	
 	private void saveInFile() {
 		try {
