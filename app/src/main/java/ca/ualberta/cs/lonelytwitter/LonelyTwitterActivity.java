@@ -26,27 +26,11 @@ import com.google.gson.reflect.TypeToken;
 
 /**
  * Created by xizi on 9/29/16.
+ *
  * @author xizi
+ * @see NormalTweet
+ * @see java.io.BufferedInputStream <p> YOu can access this file from Android Device Monitor</p> <pre></pre> <code>     pseudo - code that is used in this class as follows:     serp1 <br>     step2 <br>     </code>     <ol>         <li>Here is a number list example</li>         <li>there is a list hahaha</li>         <li>there is a list hahaha</li>         <li>there is a list hahaha</li>      </ol>      <ol>      </ol>
  * @since 1.4
- * @see  NormalTweet
- * @see java.io.BufferedInputStream
- * <p> YOu can access this file from Android Device Monitor</p>
- * <pre></pre>
- * <code>
- *     pseudo - code that is used in this class as follows:
- *     serp1 <br>
- *     step2 <br>
- *     </code>
- *     <ol>
- *         <li>there is a list hahaha</li>
- *         <li>there is a list hahaha</li>
- *         <li>there is a list hahaha</li>
- *         <li>there is a list hahaha</li>
- *      </ol>
- *      <ol>
- *
- *
- *      </ol>
  */
 
 
